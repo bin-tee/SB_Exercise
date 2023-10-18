@@ -1,0 +1,31 @@
+●Ex 1
+let name = “aaden tee”;
+let dayOfBirth = 12;
+
+●Ex 2
+let abc = “xyz”;
+let abc = “def”;
+→ error
+let abc = “xyz”;
+abc = def;
+→ value of abc changed
+
+●Ex 3
+let userFavColor = prompt(“What is your favorite color?”);
+console.log(“Nice! Your favorite color is ” + userFavColor);
+ 
+●Ex 4
+		“I hope you’re happy.”
+
+●Ex 5
+Null - assigned as the value is nothing
+Undefined - a returning value when a variable does not have an assigned value
+
+●Ex 6
+Nan - not a number
+typeOf Nan - number
+
+●Ex 7
+	let thing = “abc”
+	→ undefined
+

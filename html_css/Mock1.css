@@ -1,0 +1,12 @@
+button {
+    color: white;
+    background-color: deepskyblue;
+    padding: 0.3em 0.7em;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}

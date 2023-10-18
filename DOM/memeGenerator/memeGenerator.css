@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 16px;
+}
+
+h1 {
+    color: cornflowerblue;
+    background-color: rgba(193, 205, 210, 0.5);
+    font-size: 2.75rem;
+    word-spacing: 4px;
+    border-bottom: 4px dashed white;
+}
+
+h1:hover {
+    color: rgb(24, 220, 255);
+    background-color: rgb(206, 214, 224);
+    text-shadow: 20px 12px 17px rgb(89, 186, 255);
+}
+
+h3 {
+    color: lightskyblue;
+    font-size: 2rem;
+    text-decoration: underline;
+    letter-spacing: 0.75px;
+}
+
+h3:hover {
+    color: rgb(0, 168, 255);
+}
+
+
+.meme {
+    font-weight: bold;
+    text-align: center;
+    height: 500px;
+    width: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    /* To position the text elements relative to the meme container */
+    overflow: hidden;
+    /* To hide overflowing text */
+    display: inline-block;
+    /* To make the container size to fit content */
+}
+
+button {
+    font-family: Georgia;
+    font-weight: bold;
+    color: white;
+    background-color: lightskyblue;
+    height: 30px;
+    margin: 5px;
+}

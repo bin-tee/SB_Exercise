@@ -1,0 +1,60 @@
+Part I
+
+●	2 == “2”;
+true
+●	2 === 2;
+true
+●	10 % 3;
+1
+●	10 % 3 === 1;
+true
+●	true && false;
+false
+●	false || true;
+true
+●	true || false;
+true
+
+Part II
+
+let isLearning = true;
+if(isLearning){
+  console.log("Keep it up!");
+} else {
+  console.log("Pretty sure you are learning....");
+}
+1.	Keep it up!
+2.	isLearning = true (true - “truthy” value)
+	
+let firstVariable;
+let secondVariable = "";
+let thirdVariable = 1;
+let secretMessage = "Shh!";
+
+if(firstVariable){
+  console.log("first");
+} else if(firstVariable || secondVariable){
+  console.log("second");
+} else if(firstVariable || thirdVariable){
+  console.log("third");
+} else {
+  console.log("fourth");
+}
+1.	Third
+2.	undefined (not assigned)
+3.	Falsey (undefined - “falsey” value)
+4.	Falsey (“ ” - empty string - “falsey” value )
+5.	Truthy (3 - number - “truthy” value)
+
+
+Part III
+
+if (Math.random() > 0.5) {
+	console.log(“Over 0.5”)
+}
+else {
+	console.log(“Under 0.5”)
+}
+
+Falsey values (value evaluates to false) in JavaScript
+	“ ”, 0, false, undefined, null, NaN

@@ -1,0 +1,21 @@
+## **Part I**
+
+Answer the following questions:
+
+- What ***git*** command creates a branch?
+git checkout -b
+
+- What is the difference between a fast-forward and recursive merge?
+Fast-forward merge used when branches have linear history.
+Recursive merge used for complex, divergent histories with possible conflicts
+
+- What ***git*** command changes to another branch?
+git checkout
+
+- What ***git*** command deletes a branch?
+git branch -d
+git branch -D
+
+- How do merge conflicts happen?
+when there are different commits/changes to the same file, making it unclear which version to keep 
+
